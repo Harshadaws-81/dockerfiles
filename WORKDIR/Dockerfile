@@ -1,6 +1,6 @@
 FROM almalinux:9
 RUN mkdir /tmp/docker
-RUN cd /tmp/docker
+WORKDIR /tmp/docker
 RUN pwd
-RUN echo "HARSHA" > hello.txt
-CMD ["sleep" , "999"]
+RUN echo "HARSHA VARDHAN KADIAM" > hell.txt
+CMD ["sleep" , "222"]
