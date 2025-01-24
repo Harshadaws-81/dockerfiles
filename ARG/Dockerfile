@@ -1,5 +1,5 @@
 FROM almalinux:9
 ARG course="DevOps with AWS"
     duration="120HRS"
-RUN echo "Course: $course , Duration: $duration"
+RUN echo "Course: $course , duration: $duration"
 CMD ["sleep" , "222"]
